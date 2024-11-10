@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeoDeskart</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Para Elas</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script defer src="index.js"></script>
     <!-- Bibliotecas -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -15,17 +18,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
         <div class="container">
+            <h1><img src="logo.png" alt="Para Elas" ></h1>
             <nav>
                 <ul>
-                    <li><a href="index.html"></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="carousel">
+                    <div class="carousel-slide">            
+                        <img src="Figuras/empresas_comprometidas.jpg" alt="Imagem 2">
+                        <div class="carousel-overlay">
+                            <h2>Onde as mulheres estão</h2>
+                            <p>Tenha acesso ao ranking das empresas mais bem-avaliadas no quesito representatividade feminina, segundo nossos levantamentos.</p>
+                            <a href="aval.html" class="btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Figuras/empresa_inclusiva.jpg" alt="Imagem 1">
+                        <div class="carousel-overlay">
+                            <h2>Não perca essas oportunidades</h2>
+                            <p>Ainda em dúvida? Dê uma olhada nas vagas oferecidas nas melhores empresas para mulheres em todas as áreas da tecnologia.</p>
+                            <a href="explorecarreiras.html" class="btn-primary">Explore Carreiras</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="custom-dots">
+                <button class="dot-btn" data-slide="0"></button>
+                <button class="dot-btn" data-slide="1"></button>
+            </div>
+            <section class="features">
+                <h1>Conectando mulheres a empresas que as valorizam.</h1>
+                <div class="feature-cards">
+                    <div class="card">
+                        <h3>Transparência</h3>
+                        <p>Entenda como coletamos nossos dados e avaliamos a representatividade feminina nas mais diversas empresas de tecnologia.</p>
+                        <a href="transparencia.html" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                    <div class="card">
+                        <h3>Crescimento pessoal</h3>
+                        <p>Não tem certeza que a área de tecnologia é para você? Entenda melhor esse mercado e como você pode fazer parte dele.</p>
+                        <a href="crescimento.html" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                    <div class="card">
+                        <h3>Empresas comprometidas</h3>
+                        <p>Conheça empresas que já se aliaram a nós nessa missão de criar ambientes de trabalho com maior representatividade feminina.</p>
+                        <a href="parceiros.html" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Para Elas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
