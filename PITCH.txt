@@ -1,0 +1,74 @@
+https://docs.google.com/document/d/1yGlyKAO3dNinDsfsU8GjT4OEHzg5rg53lteFMvHi9tc/edit?usp=sharing
+
+### Pitch: ReClick! — Transformando Resíduos em Recompensas  
+
+A **ReClick!** é uma startup que une tecnologia e sustentabilidade, oferecendo incentivos financeiros diretos para a reciclagem. Nosso objetivo é engajar indivíduos e estabelecimentos comerciais, transformando resíduos em uma fonte de receita adicional.
+
+### A Solução: NeoDeskart  
+No coração da nossa proposta está a **NeoDeskart**, uma lixeira inteligente que registra e recompensa o descarte correto de resíduos recicláveis. Ela será instalada em locais de alto fluxo, como restaurantes e bares, permitindo que os usuários limpem, classifiquem e descartem seus materiais recicláveis com facilidade, recebendo recompensas financeiras proporcionais ao peso descartado.
+
+### Modelo de Negócio Sustentável  
+O modelo da ReClick! é vantajoso para todos:  
+- **Usuários** são recompensados por seu compromisso com a reciclagem.  
+- **Estabelecimentos** geram receita ao vender resíduos recicláveis.  
+- **ReClick!** lucra intermediando a venda para recicladoras.  
+
+### Potencial Financeiro da Reciclagem  
+
+Com base nos dados de produção de lixo na Rua Augusta e nos preços atuais dos materiais recicláveis:  
+
+- **Alumínio**: Com o preço atual de R$ 5,36/kg, um estabelecimento que descarta 10kg de latas recicláveis pode gerar R$ 53,60.  
+- **Papelão**: Apesar da queda para R$ 0,21/kg, um volume de 20kg ainda geraria R$ 4,20.  
+- **PET**: A R$ 0,98/kg, 15kg de garrafas PET renderiam R$ 14,70.  
+- **Papel branco e jornal**: Embora os preços tenham caído, há potencial para complementar as receitas com o descarte frequente.  
+
+Em um dia típico, estabelecimentos que produzem entre **250L e 500L de lixo** podem separar **40% de resíduos recicláveis**, gerando uma média de R$ 20 a R$ 50 por dia, dependendo do mix de materiais. Esse valor, acumulado ao longo de um mês, pode ultrapassar **R$ 1.500** em receita adicional — um benefício compartilhado entre o consumidor, o estabelecimento e a ReClick!.  
+
+### Validação do Mercado  
+Nossa proposta foi bem recebida por estabelecimentos locais em São Paulo, onde muitos ainda não praticam a separação de resíduos recicláveis. Além de reduzir custos com descarte, os estabelecimentos se interessaram pelo potencial de novas receitas, criando um ciclo sustentável e rentável.
+
+### Impacto Sustentável e Econômico  
+Com a ReClick!, todos ganham: consumidores, empresas e o planeta. Nossa solução não só incentiva a reciclagem como hábito diário, mas também promove uma economia circular que gera valor a partir de resíduos, mesmo em um mercado de preços voláteis.  
+
+### NeoDeskart: A Revolução na Gestão de Resíduos  
+
+A **NeoDeskart** é o principal produto da ReClick!, uma lixeira inteligente projetada para otimizar o processo de reciclagem, reduzindo a contaminação de resíduos recicláveis e incentivando a participação ativa dos usuários. Integrando tecnologia e funcionalidade, a NeoDeskart resolve um dos maiores desafios na cadeia de reciclagem: o descarte inadequado e a contaminação por resíduos orgânicos.
+
+### Principais Características Técnicas  
+
+1. **Registro Individual via QR-Code**  
+   Cada NeoDeskart é equipada com um QR-Code único. O usuário utiliza o smartphone para escanear o código, registrando seu descarte. Esse sistema assegura a rastreabilidade, garantindo que as recompensas financeiras sejam corretamente atribuídas ao indivíduo.
+
+2. **Sistema de Limpeza Integrado**  
+   Uma pia acoplada à lixeira permite que os usuários limpem resíduos recicláveis antes do descarte. A limpeza é fundamental, pois resíduos orgânicos frequentemente inviabilizam a reciclagem. O uso da pia é obrigatório para liberar a tampa de descarte, incentivando o hábito de limpeza.
+
+3. **Compartimentos de Descarte Automatizado**  
+   A NeoDeskart possui quatro compartimentos distintos, cada um dedicado a um tipo de material: **Metal**, **Papel**, **Plástico** e **Vidro**. Cada compartimento possui um sistema de abertura automática controlada, ativada somente após o registro e a limpeza dos resíduos.
+
+4. **Balança Integrada**  
+   Os compartimentos de descarte são equipados com balanças de alta precisão que registram o peso de cada item descartado. Esse dado é essencial para calcular as recompensas do usuário e para os relatórios gerenciais dos estabelecimentos e da ReClick!.
+
+### Fluxo de Operação  
+
+1. **Registro**: O usuário escaneia o QR-Code para registrar sua identidade no sistema.  
+2. **Limpeza**: A pia é ativada, garantindo que o material reciclável seja adequadamente limpo.  
+3. **Descarte**: Após a limpeza, a tampa do compartimento apropriado é liberada. O usuário descarta o material reciclável, que é pesado automaticamente.  
+4. **Recompensa**: O peso do material é registrado no perfil do usuário, convertendo-se em recompensas financeiras acumuláveis.  
+
+### Solução para a Contaminação de Resíduos  
+
+Na coleta tradicional, até **30% a 40% dos materiais recicláveis** são inutilizados devido à contaminação com resíduos orgânicos. A NeoDeskart elimina esse problema ao integrar a etapa de limpeza diretamente no processo de descarte. Essa abordagem não apenas aumenta a qualidade dos materiais recicláveis, mas também melhora a eficiência operacional das recicladoras, que gastam menos com triagem e tratamento.
+
+### Benefícios para os Investidores  
+
+- **Diferenciação Tecnológica**: A NeoDeskart é pioneira ao unir registro digital, limpeza integrada e pesagem automatizada em um único dispositivo.  
+- **Escalabilidade**: Com sua estrutura modular e fácil integração, pode ser implementada em diversos setores, desde restaurantes e shoppings até eventos públicos.  
+- **Modelo de Receita Recurrente**: A venda de NeoDeskarts e o modelo de receita compartilhada com estabelecimentos geram fluxos financeiros diversificados.  
+- **Sustentabilidade Econômica e Ambiental**: Além de gerar lucro, a NeoDeskart promove uma mudança cultural e sustentável, alinhada com as tendências globais de ESG (Environmental, Social, and Governance).  
+
+A **NeoDeskart** não é apenas uma lixeira; é uma solução completa que combina tecnologia e sustentabilidade para criar valor em toda a cadeia de reciclagem.
+
+
+**ReClick!** — Reciclagem a apenas um Click!.
+
+
