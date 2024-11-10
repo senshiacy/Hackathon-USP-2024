@@ -6,11 +6,11 @@
 }
 
 :root {
-    --cor-clara: #fff0f6;  
-    --cor-intermediaria: #EDAFB8; 
-    --cor-de-destaque: #960f65; 
-    --cor-secundaria: #3883ac;  
-    --cor-secundaria-clara: #b8d6e6;
+    --cor-clara: #FFF1CE;  
+    --cor-intermediaria: #12AACC; 
+    --cor-de-destaque: #FAC420; 
+    --cor-secundaria: #F5A40F;  
+    --cor-secundaria-clara: #fcd183;
     --fonte-destaque: "Rubik Mono One";
     --fonte-texto: "League Spartan";
 }
