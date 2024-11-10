@@ -1,0 +1,127 @@
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-secundaria-intermediaria: #3883ac;   
+    --cor-secundaria-clara: #b8d6e6;
+    --cor-oportunidades: #56af39;
+    --cor-oportunidade-clique: #006f2b;
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+.btn {
+    font-family: var(--fonte-destaque);
+    font-size: 0.8em;
+    background: var(--cor-clara);
+    color: var(--cor-secundaria-intermediaria);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 0.3em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    color: var(--cor-clara);
+    background: var(--cor-secundaria-intermediaria);
+}
+
+/* Features Section */
+.features {
+	font-family: var(--fonte-texto);
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.features h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--cor-de-destaque);
+}
+
+.features p {
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1.5em;
+    color: black;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.empresas{
+    background: var(--cor-secundaria-clara);
+    color: var(--cor-secundaria-intermediaria);
+    padding: 20px 0;
+    border-radius: 0.6em;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.empresas:hover {
+    transform: scale(1.05);
+}
+
+.empresas h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin-bottom: 0px;
+    color: var(--cor-secundaria-intermediaria);
+}
+
+.empresas h3 {
+    color: var(--cor-secundaria-intermediaria);
+    text-align: left;
+    padding-left: 60px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.empresas p {
+    color: black;
+    text-align: justify;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.empresas ul{
+    text-align: left;
+    color: black;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.empresas h1 img {
+    margin-bottom: -20px;
+    height: 200px; /* Ajuste a altura da imagem conforme necessário */
+    width: auto;  /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
+
+.oportunidade {
+    font-family: var(--fonte-destaque);
+    font-size: 0.8em;
+    background: var(--cor-oportunidades);
+    color: var(--cor-clara);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 0.3em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.oportunidade:hover{
+    background: var(--cor-oportunidade-clique);
+}

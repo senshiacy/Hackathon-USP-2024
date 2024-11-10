@@ -1,0 +1,95 @@
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-secundaria-intermediaria: #3883ac;   
+    --cor-secundaria-clara: #b8d6e6;
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+/* Features Section */
+.features {
+    margin-top: 100px;
+    font-family: var(--fonte-texto);
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.features h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--cor-de-destaque);
+}
+
+.features p {
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1.5em;
+    color: black;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.challenges {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.challenge {
+    background: var(--cor-secundaria-clara);
+    color: black;
+    width: 30%;
+    font-size: 1.2em;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 0.6em;
+}
+.challenge h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    color: var(--cor-secundaria-intermediaria);
+    margin: 20px 0 10px 0;
+}
+
+.challenge img {
+    width: 70%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    filter: sepia(100%); /* Deixa a imagem em tons de cinza */
+    transition: 1s linear; /* Remove a transição */
+    border-radius: 50%;
+}
+
+.challenge:hover img {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+#scrollToBottom {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#scrollToBottom img {
+    width: 100px; /* Tamanho do ícone */
+    margin-right: 5px; /* Espaço entre o ícone e o texto, se houver */
+}

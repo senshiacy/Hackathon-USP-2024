@@ -1,0 +1,105 @@
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-secundaria: #3883ac;  
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+#cont{
+    font-family: var(--fonte-texto);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--cor-de-destaque);
+    padding: 10px 80px;
+}
+
+.deal{
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    color: black;
+    padding: 10px 80px;
+
+}
+
+.deal ul{
+    list-style: none;
+    display: flex;
+}
+
+.deal li{
+    margin: 20px;
+}
+
+/* Form */
+form {
+    font-family: var(--fonte-texto);
+    font-size: 1.4em;
+    padding: 2em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    padding: 10px 80px;
+}
+
+form h2, form h3 {
+    color: var(--cor-de-destaque);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--cor-de-destaque);
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form input[type="file"], form textarea {
+    font-family: var(--fonte-texto);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    font-family: var(--fonte-destaque);
+    text-transform: uppercase;
+
+    display: block;
+    padding: 10px 15px;
+    background: var(--cor-secundaria);
+    color:white;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    transition:1s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background:var(--cor-de-destaque);
+    transform: scale(1.2);
+}

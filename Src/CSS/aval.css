@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-secundaria-intermediaria: #3883ac;   
+    --cor-secundaria-clara: #b8d6e6;
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+main {
+    padding-top: 130px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    -padding: 20px 0;
+}
+
+.search-bar input {
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    width: 500px;
+    margin-left: 50px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--cor-secundaria-intermediaria);
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: var(--cor-de-destaque);
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.filters {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.filters h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.filters form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters label {
+    margin: 10px 0 5px;
+}
+
+.filters select, .filters button {
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.filters button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reviews {
+    flex: 3;
+}
+
+.reviews h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.review-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.review-card h3{
+    font-size: 1.2em;
+    font-family: var(--fonte-destaque);
+    text-transform: uppercase;
+}
+
+.review-card p{
+    text-align: left;
+    color: black;
+}
+
+.review-card p b{
+    color: var(--cor-de-destaque);
+}
+
+.review-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.site{
+    font-family: var(--fonte-texto);
+    text-decoration: none;
+}
+
+/* Estilo para o botão "Aplicar Filtros" */
+form button[type="submit"] {
+    font-family: var(--fonte-destaque);
+    font-size: 1em; 
+    text-transform: uppercase;
+
+    background: var(--cor-secundaria-intermediaria);
+    color: var(--cor-clara); 
+
+    display: block;
+    margin-top: 10px;
+    padding: 10px 0px; 
+    border: none; 
+    border-radius: 10px; 
+
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+form button[type="submit"]:hover {
+    background-color: var(--cor-de-destaque); 
+}

@@ -1,0 +1,92 @@
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-botoes: #3883ac;   
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+/* Main */
+main {
+    padding-top: 80px;
+}
+
+/* Growth Section */
+.growth {
+    padding: 0px;
+}
+
+.growth-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.growth-section .text, .growth-section .image {
+    flex: 1;
+}
+
+.growth-section .text {
+    max-width: 60%;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.growth-section .image {
+    max-width: 40%;
+    text-align: center;
+
+}
+
+.growth-section .image img {
+    width:50%;
+    height: auto;
+}
+
+.growth-section .text h2, .growth-section .text h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor-de-destaque);
+}
+
+.growth-section .text p, .growth-section .text ul {
+    font-size: 1.2em;
+    color: var(--cor-de-destaque);
+}
+
+.growth-section .text ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.growth-section .text ul li {
+    margin-bottom: 10px;
+}
+
+
+.growth-section.invertido {
+    padding-top: 0;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .growth-section .text, .growth-section .image {
+        flex: auto; 
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .growth-section .text {
+        max-width: 100%;
+    }
+
+    .growth-section .image {
+        max-width: 100%;
+    }
+}
