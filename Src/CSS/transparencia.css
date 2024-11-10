@@ -1,0 +1,128 @@
+:root {
+    --cor-clara: #fff0f6;  
+    --cor-intermediaria: #EDAFB8; 
+    --cor-de-destaque: #960f65; 
+    --cor-botoes: #3883ac;   
+    --fonte-destaque: "Rubik Mono One";
+    --fonte-texto: "League Spartan";
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+/* Seção de Transparência */
+.transparency {
+    padding-top: 60px;
+}
+
+.transparency-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garante que o texto e a imagem fiquem lado a lado */
+    height: 80vh;
+    padding: 40px;
+}
+
+.transparency-section .text, .transparency-section .image {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.transparency-section .text {
+    max-width: 60%; /* Garante que o texto não ocupe mais que a metade da largura */
+}
+
+.transparency-section .image {
+    max-width: 40%; /* Garante que a imagem não ocupe mais que a metade da largura */
+    text-align: center; /* Centraliza a imagem verticalmente */
+}
+
+.transparency-section .image img {
+    width: 70%; /* Faz com que a imagem ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.transparency-section .text h2, .transparency-section .text h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor-de-destaque);
+}
+
+.transparency-section .text p, .transparency-section .text ul {
+    font-size: 1.2em;
+    color: var(--cor-de-destaque);
+}
+
+.transparency-section .text ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.transparency-section .text ul li {
+    margin-bottom: 10px;
+}
+
+.transparency-section .btn-primary {
+    background: var(--cor-botoes);
+    color: var(--cor-clara);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.transparency-section .btn-primary:hover {
+    background: var(--cor-de-destaque);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Empilha os elementos em telas menores */
+    }
+
+    .transparency-section .text, .transparency-section .image {
+        flex: auto; /* Ocupa o espaço disponível */
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .transparency-section .text {
+        max-width: 100%; /* Texto ocupa toda a largura em telas menores */
+    }
+
+    .transparency-section .image {
+        max-width: 100%; /* Imagem ocupa toda a largura em telas menores */
+    }
+}
+
+/* Exemplos */
+.transparency-section .examples {
+    margin-top: 20px;
+}
+
+.transparency-section .example {
+    background: var(--cor-botoes);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.transparency-section .example h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--cor-clara);
+}
+
+.transparency-section .example p {
+    font-size: 1em;
+    color: var(--cor-clara);
+}
+
+.transparency-section.invertido {
+    padding-top: 0%;
+    flex-direction: row-reverse; /* Inverte a direção do flex para colocar imagem à esquerda e texto à direita */
+}
