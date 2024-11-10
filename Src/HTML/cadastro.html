@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reclick - Cadastro</title>
+        <link rel="stylesheet" href="../CSS/aval.css">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script defer src="../JS/aval.js"></script>
+        <script src="https://unpkg.com/html5-qrcode"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="../Figuras/logo.png" alt="Para Elas"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastrar</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="id">
+                <div class="identifier">
+                    <img src="../Figuras/user.jpg" class="user">
+                    <div class="user-info">
+                        <h2 id="user-name"></h2>
+                        <p id="user-balance"></p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="qrcode">
+                <h1>Cadastrar Lixo</h1>
+                <div class="section">
+                    <div id="my-qr-reader">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="money">
+                <button class="button" onclick="rescueMoney()">Resgatar Dinheiro</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Reclick. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+</body></html>

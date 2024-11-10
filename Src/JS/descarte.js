@@ -22,7 +22,7 @@ function filterJobs() {
 
     for (i = 0; i < jobCards.length; i++) {
         title = jobCards[i].getAttribute('data-title');
-        company = jobCards[i].getAttribute('data-company');
+        company = jobCards[i].getAttribute('job-title');
         txtValue = title + " " + company;
         if (txtValue.toLowerCase().indexOf(filter) > -1) {
             jobCards[i].style.display = "";

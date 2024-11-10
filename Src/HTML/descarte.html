@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclick - Ainda em Dúvida?</title>
+    <link rel="stylesheet" href="../CSS/descarte.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="../JS/descarte.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="../Figuras/logo.png" alt="Para Elas" ></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastrar</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <input type="text" id="searchInput" onkeyup="filterJobs()" placeholder="Pesquisar Materiais Recicláveis...">
+            <button type="button" class="submit" onkeydown="javascript:EnterTab('input2',event)">Pesquisar</button>
+        </div>
+        <section class="job-overview">
+            <div class="job-listings" id="jobListings">
+                <div class="job-card" data-title="Plásticos" data-company="Tech Solutions" onclick="showJobDetails('job1')">
+                    <h2 class="job-title">Plásticos</h2>
+                </div>
+                <div class="job-card" data-title="Papéis" data-company="Data Insights" onclick="showJobDetails('job2')">
+                    <h2 class="job-title">Papéis</h2>
+                </div>
+                <div class="job-card" data-title="Metais" data-company="Tech Solutions" onclick="showJobDetails('job3')">
+                    <h2 class="job-title">Metais</h2>
+                </div>
+                <div class="job-card" data-title="Vidros" data-company="Data Insights" onclick="showJobDetails('job5')">
+                    <h2 class="job-title">Vidros</h2>
+                </div>
+                <!-- Adicione mais cartões de vaga conforme necessário -->
+            </div>
+            <div class="job-details" id="job-details">
+                <!-- Detalhes da vaga selecionada serão exibidos aqui -->
+                <div id="job1" class="job-detail-card">
+                    <h2 class="job-title">Pláticos</h2>
+                    <p class="company">
+                        Feito a partir do petróleo, o Plástico é o principal dos descartes rejeitados nos centros de reciclagem. Em média, 77% dos plásticos
+                        pós consumo é rejeitado, enquanto poderia ter sido reciclado mais duas ou três vezes. No Brasil, essa taxa é ainda menor. 
+                        <br>
+                        Para o descarte correto, certifique-se que o plástico está higienizado; Não é necessário lavá-lo, apenas enxaguar para se certificar que não
+                        há restos de alimentos nele. Fora isso, a regra é geralmente simples: Se um objeto possui partes que não são de plástico, remova-os antes do descarte.
+                    </p>
+                </div>
+                <div id="job2" class="job-detail-card">
+                    <h2 class="job-title">Papéis</h2>
+                    <p class="company">
+                        O papel é feito a partir de árvores e reciclado em larga escala. Descarte para reciclagem apenas papéis limpos, como folha de escritório,
+                        papelão de artesanato e recipientes descartáveis propriamente limpos, como copos lavados de redes de fast food.
+                        <br>
+                        Nunca descarte para reciclagem papéis sujos como caixas de pizza engordurado e guardanapos. Eles contaminam a sacola de lixo inteira.
+                    </p>
+                </div>
+                <div id="job3" class="job-detail-card">
+                    <h2 class="job-title">Metais</h2>
+                    <p class="company">
+                        Latinhas são 100% recicladas no Brasil, o que faz do metal o material com maior taxa de reciclagem dentre os demais materiais.
+                        <br>
+
+                    </p>
+                </div>
+                <div id="job4" class="job-detail-card">
+                    <h2 class="job-title">Vidros</h2>
+                    <p class="company"><b>Empresa:</b> Santi</p>
+                </div>
+                <!-- Adicione mais detalhes de vaga conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Reclick. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

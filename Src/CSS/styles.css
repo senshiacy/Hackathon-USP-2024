@@ -86,7 +86,8 @@ footer {
     font-weight:700;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: auto;
+    
 }
 
 /* Body e container */
@@ -96,10 +97,25 @@ body {
     line-height: 1.6;
     color: var(--cor-de-destaque);
     background-color: var(--cor-clara);
+    margin-top: auto;
+    position: inherit;
 }
 
 .container {
     width: 100%;
     margin: auto;
     overflow: hidden;
+}
+
+.tp-1{
+    background-color: white;
+
+}
+
+.tp-2{
+    background-color: var(--cor-secundaria-clara);
+}
+
+.tp-4{
+    background-color: var(--cor-secundaria-clara);
 }
